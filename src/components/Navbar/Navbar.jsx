@@ -5,7 +5,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom';
-import '../Navbar/Navbar.scss'
+import './Navbar.scss'
 
 export const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ export const Navbar = () => {
         <div className="wrapper">
           <div className='left'>
             <div className="item">
-                <img src="/images/usflg.png" alt="" />
+                <img className ='flag'src="/images/usflg.png" alt="" />
                 <KeyboardArrowDownIcon/>
             </div>
             <div className="item">

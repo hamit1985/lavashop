@@ -4,5 +4,21 @@
     .wrapper {
         padding: 10px 30px;
         display: flex;
+        justify-content: space-between;
+
+        .left {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+        .center {
+           
+        }
+        .right {
+            display: flex;
+            align-items: center;
+            gap: 25px
+        }
+        
     }
 }
