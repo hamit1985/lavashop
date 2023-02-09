@@ -24,13 +24,13 @@ export const Navbar = () => {
                 <KeyboardArrowDownIcon />
             </div>
             <div className="item">
-                <Link className='link' to='/products/1'>Women</Link>
+                <Link className='link' to='/products/1'>WOMEN</Link>
             </div>
             <div className="item">
-                <Link className='link' to='/products/2'>Men</Link>
+                <Link className='link' to='/products/2'>MEN</Link>
             </div>
             <div className="item">
-                <Link className='link' to='/products/3'>Children</Link>
+                <Link className='link' to='/products/3'>CHILDREN</Link>
             </div>
            </div>
           <div className='center'>
