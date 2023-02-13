@@ -16,6 +16,10 @@ export const Cart = () => {
         return total.toFixed(2)
     }
 
+
+    
+    
+
     const stripePromise = loadStripe('pk_test_51Mad9GCwbyS1X5dv9QS3jPgYssW7y9vl6OvM0wUwm1axUmZtDo5ok34RYdOCPPrpvDifx5Wy3YOwPr8r206UpuJV00NExDNp2k');
     const handlePayment = async()=>{
         try{
